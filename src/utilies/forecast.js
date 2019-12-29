@@ -8,7 +8,7 @@ const forecast=(lat,long,callback)=>{
             console.log(lat,long)
             callback('Location doesnot exixts. Try another',undefined)
         } else {
-            callback(undefined,body.daily.data[0].summary+' It is currently '+body.currently.temperature+' degree temp out there.')
+            callback(undefined,body.daily.data[0].summary+' It is currently '+body.currently.temperature+' degree temp out there. There is '+body.daily.data[0].precipProbability+' chances of rain.')
         }
     })
 }
