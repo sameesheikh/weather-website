@@ -4,7 +4,7 @@
   "description": "my demo app",
   "main": "p1.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/p11.js"
   },
   "author": "samee",
   "license": "ISC",
