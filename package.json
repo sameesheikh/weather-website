@@ -4,7 +4,8 @@
   "description": "my demo app",
   "main": "p1.js",
   "scripts": {
-    "start": "node src/p11.js"
+    "start": "node src/p11.js",
+    "dev": "nodemon src/p11.js -e js,hbs"
   },
   "author": "samee",
   "license": "ISC",
@@ -14,5 +15,8 @@
     "hbs": "^4.0.6",
     "request": "^2.88.0",
     "yargs": "^12.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.2.0"
   }
 }
