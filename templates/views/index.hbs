@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>weather app</title>
+        <link rel='stylesheet' href='/css/style.css'>
+        <link rel="icon" href='/images/robot.png'>
+    </head>
+    <body>
+        <div class='main-content'>
+            {{>header}}
+            <p>use this wesite to get your weather</p>
+            <form>
+                <input type='text' placeholder='location'>
+                <button>Search</button>
+            </form>
+            <p id='msg1'></p>
+            <p id='msg2'></p>
+        </div>
+        {{>footer}}
+        <script src='/js/app.js'></script>
+    </body>
+</html>
